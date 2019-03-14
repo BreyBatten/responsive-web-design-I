@@ -75,7 +75,7 @@ header {
 	width: 100%;
 	padding: 30px 0;
 	display: flex;
-  justify-content: space-evenly;
+  	justify-content: space-evenly;
 }
 
 header nav, header div {
@@ -90,7 +90,7 @@ header nav {
 
 header div {
 	display: flex;
-  justify-content: flex-end;
+  	justify-content: flex-end;
 }
 
 header nav a {
@@ -109,13 +109,13 @@ header nav a {
 .header {
 	width: 100%;
 	padding: 20px 0;
-  display: flex;
-  justify-content: flex-start;
+  	display: flex;
+  	justify-content: flex-start;
 }
 
 .iod {
 	text-align: center;
-  margin-bottom: 10px;
+  	margin-bottom: 10px;
 	font-size: 70px;
 	display: flex;
 }
@@ -135,12 +135,12 @@ header nav a {
 
 .button {
 	width: 170px;
-  margin: 20px 0px 0px 68px;
+  	margin: 20px 0px 0px 68px;
 	padding: 10px;
 	border: 1px solid black;
-  border-radius: 4px;
-  font-size: 15px;
-  background: white;
+  	border-radius: 4px;
+  	font-size: 15px;
+  	background: white;
 }
 
 .pic {
@@ -213,7 +213,7 @@ address {
 
 @media(max-width: 800px) {
   header div {
-	  display: flex;
+	display: flex;
     justify-content: center;
     margin-bottom: 40px;
   }
@@ -227,19 +227,19 @@ address {
 
 @media( max-width: 800px) { 
 	header {
-    display: flex;
+    	display: flex;
 		flex-direction: column-reverse;
 		align-items: center;
 		margin-top: 10px;
 		margin-bottom: 30px;
-    width: 100%;
+    	width: 100%;
 	}
 }
 
 @media(max-width: 800px) {
   section.container {
     display: flex;
-	  justify-content: center;
+	justify-content: center;
   }
 }
 
